@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+
+        <label for="Email">Email Address</label><br>
+        <input type="text" id="Email" name="Email" value=""><br>
+
+        <label for="Password">Password</label><br>
+        <input type="password" id="Password" name="Password" minlength="8"><br> 
+        <h3>Language</h3>
+        <input type="radio" name="option"> English <br>
+        <input type="radio" name="option"checked> Marathi <br>
+        <input type="radio" name="option"> Hindi <br>
+
+        <h3>Course</h3>
+        <input type="checkbox" name="selection" checked> MERN <br>
+        <input type="checkbox" name="selection" > MEAN <br>
+        <input type="checkbox" name="selection"> MEVN <br>
+        <input type="Submit" value="Submit"> <br>
+        
+        <form method=post action="/cgibin/example.cgi"> <br>
+            Field: <br>
+            <select>
+            <option >Frant End</option>
+            <option selected>Back End</option>
+            <option>Full stack</option>
+            </select><br>
+        
+        <br>
+           
+            <textarea wrap="virtual" name="Comments"rows=3 cols=20maxlength=100></textarea><br>
+            
+        <br>
+        Phone Number
+        <input type="text" style="color: #050118; font-family: Verdana; font-weight: bold; fontsize: 12px; background-color: #f3f5f7;" size="10" maxlength="30">
+        <input type="Submit" value="Submit" >
+
+        <h1>TABLES</h1>
+        
+        <a href="Form.html" target="_self"> Click Here</a>
+        </form>
+    </form>
+</body>
+</html>
